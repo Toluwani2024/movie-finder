@@ -1,12 +1,41 @@
-# React + Vite
+# Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive movie search app built with React + Vite, using The Movie Database (TMDb) API. Users can search for movies, view trending titles, and get detailed information including posters, ratings, and descriptions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies by title
+- Browse trending movies
+- View detailed information:
+  - Movie poster
+  - Title
+  - Rating
+  - Overview
+  - Release date
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Axios
+- TMDb API
+- React Router DOM
+- CSS (custom styling)
+
+## Demo
+
+[https://movie-finder-opal-pi.vercel.app/]
+
+## Screenshots
+![Screenshot (448)](https://github.com/user-attachments/assets/9c621a64-2e39-4461-ad9f-af145e4399c1) ![Screenshot (449)](https://github.com/user-attachments/assets/a35334fe-a9e0-4cfb-9708-a626e1c4a0de)![Screenshot (450)](https://github.com/user-attachments/assets/3bafcc31-2f88-4f88-a4f7-2174ba81fd96)
+
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/Toluwani2024/movie-finder.git
+cd movie-finder
+npm install
+npm run dev
